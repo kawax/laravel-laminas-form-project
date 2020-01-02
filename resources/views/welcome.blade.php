@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container p-5">
-    <h1>Laravel Zend Form</h1>
+    <h1>Laravel Laminas Form</h1>
 
     <div class="card">
         <div class="card-header">
