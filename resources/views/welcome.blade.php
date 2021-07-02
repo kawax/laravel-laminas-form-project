@@ -36,22 +36,22 @@
 
             {{ csrf_field() }}
 
-            <div class="form-group row">
-                <label for="name" class="col-sm-3 col-form-label">{!! $form->get('name')->getLabel()  !!}</label>
-                <div class="col-sm-9">
+            <div class="mb-3 row">
+                <label for="name" class="col-sm-2 col-form-label">{!! $form->get('name')->getLabel()  !!}</label>
+                <div class="col-sm-10">
                     {!! $form->formInput($form->get('name')) !!}
                 </div>
             </div>
 
-            <div class="form-group row">
-                <label for="email" class="col-sm-3 col-form-label">{!! $form->get('email')->getLabel()  !!}</label>
-                <div class="col-sm-9">
+            <div class="mb-3 row">
+                <label for="email" class="col-sm-2 col-form-label">{!! $form->get('email')->getLabel()  !!}</label>
+                <div class="col-sm-10">
                     {!! $form->formInput($form->get('email')) !!}
                 </div>
             </div>
 
-            <div class="form-group row">
-                <div class="col-sm-9 offset-sm-3">
+            <div class="mb-3 row">
+                <div class="col-sm-10 offset-sm-2">
                     {!! $form->formSubmit($form->get('send')) !!}
                 </div>
             </div>
@@ -63,10 +63,10 @@
 
     <div class="card mt-3">
         <div class="card-header">
-            Bootstrap4 View Helper
+            Bootstrap5 View Helper
         </div>
         <div class="card-body">
-            {{ $form->render('bootstrap4horizon') }}
+            {{ $form->render('bootstrap5horizon') }}
         </div>
     </div>
 </div>
